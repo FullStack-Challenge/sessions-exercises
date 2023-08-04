@@ -5,7 +5,7 @@ import fetch from 'node-fetch';
 /*
 const OW = {
     OPEN_WEATHER_URL: "http://api.openweathermap.org/data/2.5/forecast?id=524901&appid=",
-    API_KEY: "98ad97d4f1a5a91e3ff22ff68eca43a0",
+    API_KEY: <api-key>,
     fetchData: async function() {
         const response = await fetch(`${this.OPEN_WEATHER_URL}${this.API_KEY}`);
         const json = await response.json();
@@ -25,7 +25,7 @@ class Base {
 
 class OpenWeather extends Base {
     OPEN_WEATHER_URL = "http://api.openweathermap.org/data/2.5/forecast?id=524901&appid=";
-    API_KEY = "98ad97d4f1a5a91e3ff22ff68eca43a0";
+    API_KEY = <api-key>;
     #environment = "qa";
 
     async fetchData() {
